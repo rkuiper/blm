@@ -1,0 +1,20 @@
+Package: blm
+Type: Package
+Title: Bridge Linear Models
+Version: 0.1
+Authors@R: c(
+    person("Rowan","Kuiper",email="r.kuiper.emc@gmail.com",role=c("cre","aut"),comment = c(ORCID = "0000-0002-3703-1762")),
+    person("Rowan","Kuiper",role=c("aut"))
+    )
+Description: By bridging linear models, a model can be described in term of other features.
+Suggests:
+    doMC,
+    doParallel
+Imports:
+    Biobase,
+    limma,
+    foreach,
+    lumi
+License: file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.1.1
